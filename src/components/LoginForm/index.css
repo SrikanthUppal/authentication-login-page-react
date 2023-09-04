@@ -1,0 +1,110 @@
+/* Write your CSS code here */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 14px;
+}
+.inputs {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: #d7dfe9;
+  color: #64748b;
+  margin-bottom: 16px;
+  margin-top: 6px;
+  padding-left: 16px;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.login-button {
+  margin-top: 6px;
+  width: 100%;
+  height: 35px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-top: 6px;
+  text-align: left;
+}
+.logo-img {
+  width: 196px;
+  margin-bottom: 26px;
+  margin-top: 16px;
+}
+.website-login-img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .logo-img2 {
+    width: 146px;
+    margin-bottom: 12px;
+  }
+  .login-container {
+    flex-direction: row;
+  }
+  .login-container {
+    width: 80%;
+  }
+  .website-login-img {
+    width: 316px;
+    margin-right: 26px;
+  }
+  .form {
+    width: 45%;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding: 28px 20px 28px 20px;
+    border-radius: 3px;
+    margin-left: 26px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .inputs {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .login-button {
+    font-size: 14px;
+  }
+  .logo-img {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .inputs {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 767px) {
+  .logo-img2 {
+    display: none;
+  }
+}

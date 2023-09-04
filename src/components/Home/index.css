@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-heading {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 32px;
+  width: 80%;
+}
+.home-content-image1 {
+  width: 170px;
+  margin-bottom: 16px;
+}
+
+.home-clothes-description {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+  margin-bottom: 12px;
+  width: 90%;
+}
+.button {
+  background-color: #0967d2;
+  color: #d7dfe9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 6px 36px 6px 36px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+  .home-container {
+    width: 80%;
+    height: 70vh;
+    justify-content: space-between;
+  }
+  .home-content-container {
+    width: 60%;
+  }
+  .home-content-image1 {
+    display: none;
+  }
+  .home-content-image2 {
+    width: 356px;
+  }
+  .home-content-container {
+    align-items: flex-start;
+  }
+  .home-heading {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .home-clothes-description {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .home-content-container {
+    width: 50%;
+  }
+  .home-content-image2 {
+    width: 35%;
+  }
+  .home-heading {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .home-clothes-description {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .home-content-image2 {
+    display: none;
+  }
+}
